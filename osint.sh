@@ -11,37 +11,37 @@ echo -e "         \e[1;31mBy: MRX-HACKS\e[0m\e[1;33m    \___)=(___/ \e[0m"
 echo ""
 while :
 do
-echo -e "\e[1;37m[\e[0m\e[1;31m1\e[0m\e[1;37m]. Sacar informacion IP de una pagina\e[0m"
-echo -e "\e[1;37m[\e[0m\e[1;31m2\e[0m\e[1;37m]. Hacer osint a una pagina\e[0m"
-echo -e "\e[1;37m[\e[0m\e[1;31m3\e[0m\e[1;37m]. Generador de bin\e[0m"
-echo -e "\e[1;37m[\e[0m\e[1;31m4\e[0m\e[1;37m]. Ver los servicios que se están corriendo\e[0m"
-echo -e "\e[1;37m[\e[0m\e[1;31m5\e[0m\e[1;37m]. Ver info de un numero de telefono\e[0m"
-echo -e "\e[1;37m[\e[0m\e[1;31m6\e[0m\e[1;37m]. Leer archivo.txt del directorio IP-OSINT"
-echo -e "\e[1;37m[\e[0m\e[1;31m7\e[0m\e[1;37m]. Mostrar la versión remota del servidor SSH\e[0m"
-echo -e "\e[1;37m[\e[0m\e[1;31m8\e[0m\e[1;37m]. Saber la IP de una pagina\e[0m"
-echo -e "\e[1;37m[\e[0m\e[1;31m9\e[0m\e[1;37m]. Escanear 24 puertos de una IP\e[0m"
-echo -e "\e[1;37m[\e[0m\e[1;31m10\e[0m\e[1;37m]. Escanear vulnerabilidades de una IP\e[0m"
-echo -e "\e[1;37m[\e[0m\e[1;31m11\e[0m\e[1;37m]. Mostrar datos del sistema\e[0m"
+echo -e "\e[1;37m[\e[0m\e[1;31m1\e[0m\e[1;37m]. Get IP information from a page\e[0m"
+echo -e "\e[1;37m[\e[0m\e[1;31m2\e[0m\e[1;37m]. Make osint on a page\e[0m"
+echo -e "\e[1;37m[\e[0m\e[1;31m3\e[0m\e[1;37m]. Bin generator\e[0m"
+echo -e "\e[1;37m[\e[0m\e[1;31m4\e[0m\e[1;37m]. See the services that are running\e[0m"
+echo -e "\e[1;37m[\e[0m\e[1;31m5\e[0m\e[1;37m]. See info for a phone number\e[0m"
+echo -e "\e[1;37m[\e[0m\e[1;31m6\e[0m\e[1;37m]. Read file.txt from the IP-OSINT directory"
+echo -e "\e[1;37m[\e[0m\e[1;31m7\e[0m\e[1;37m]. Show the remote version of the SSH server\e[0m"
+echo -e "\e[1;37m[\e[0m\e[1;31m8\e[0m\e[1;37m]. Know the IP of a page\e[0m"
+echo -e "\e[1;37m[\e[0m\e[1;31m9\e[0m\e[1;37m]. Scan 24 ports from one IP\e[0m"
+echo -e "\e[1;37m[\e[0m\e[1;31m10\e[0m\e[1;37m]. Scan for IP vulnerabilities\e[0m"
+echo -e "\e[1;37m[\e[0m\e[1;31m11\e[0m\e[1;37m]. Show system data\e[0m"
 echo -e "\e[1;37m[\e[0m\e[1;31m12\e[0m\e[1;37m]. Phishing wifi\e[0m"
-echo -e "\e[1;37m[\e[0m\e[1;31m99\e[0m\e[1;37m]. Salir\e[0m"
+echo -e "\e[1;37m[\e[0m\e[1;31m99\e[0m\e[1;37m]. Exit\e[0m"
 echo ""
 echo -e "\e[1;36mFacebook:\e[0m \e[1;37mhttps://www.facebook.com/jimber.cevallos\e[0m"
 echo ""
 echo -e -n "\e[1;37m☆ I \e[0m\e[1;31mP \e[0m\e[1;33m- \e[0m\e[1;37mO \e[0m\e[1;31mP \e[0m\e[1;37mS \e[0m\e[1;31mI \e[0m\e[1;37mN >> \e[0m"
-read opcion
-case $opcion in
+read option
+case $option in
 1)
 echo ""
 #! /bin/bash
 setterm -foreground green
-echo -e -n "\e[1;32m[+]Ingrese la IP de una pagina >\e[0m \e[1;37m\e[0m"
+echo -e -n "\e[1;32m[+]Enter the IP of a page: >\e[0m \e[1;37m\e[0m"
 read a
 echo ""
 setterm -foreground green
-echo "[+]Buscando datos de la IP .."
+echo "[+]Looking for data from the IP .."
 sleep 3
 echo ""
-echo "---------Informacion----------"
+echo "---------Information----------"
 sleep 1
 setterm -foreground yellow
 whois $a
@@ -53,12 +53,12 @@ exit
 echo ""
 #! /bin/bash
 setterm -foreground green
-echo -e "\e[1;32m[+]Ingrese el dominio de la pagina\e[0m"
-echo -n -e "\e[1;32m[Ej:facebook.com] >>\e[0m \e[1;37m\e[0m"
+echo -e "\e[1;32m[+]Enter from domain of the page:\e[0m"
+echo -n -e "\e[1;32m[Ex:facebook.com] >>\e[0m \e[1;37m\e[0m"
 read b
 echo ""
 setterm -foreground green
-echo "[+]Haciendo osint a ($b) ..."
+echo "[+]Doing osint on a page ($b) ..."
 sleep 3
 echo ""
 echo "---------OSINT----------"
@@ -80,10 +80,10 @@ exit
 4)
 echo ""
 #! /bin/bash
-echo -n -e "\e[1;32m[+]Ingrese la IP de un dominio >\e[0m \e[1;37m\e[0m"
+echo -n -e "\e[1;32m[+]Enter the IP of a domain: >\e[0m \e[1;37m\e[0m"
 read c
 echo ""
-echo -e "\e[1;32m[+]Escaneando posibles servicios abiertos de ($c)..\e[0m"
+echo -e "\e[1;32m[+]Scanning possible open services ($c)..\e[0m"
 sleep 2
 echo ""
 echo "==============================================================="
@@ -105,14 +105,14 @@ ls
 echo ""
 while :
 do
-echo -e -n "\e[1;37m[~]Desea continuar [\e[0m\e[1;33myes\e[0m\e[1;37m]\e[0m \e[1;37msalir\e[0m \e[1;37m[\e[0m\e[1;33mno\e[0m\e[1;37m] > \e[0m"
+echo -e -n "\e[1;37m[~]Do you want to continue? [\e[0m\e[1;33myes\e[0m\e[1;37m]\e[0m \e[1;37msalir\e[0m \e[1;37m[\e[0m\e[1;33mno\e[0m\e[1;37m] > \e[0m"
 read continued
 case $continued in
 yes)
 #! /bin/bash
 echo ""
-echo -e "\e[1;32m[+]Escriba el archivo sin el\e[0m \e[1;31m.txt\e[0m"
-echo -n -e "\e[1;32mArchivo >>\e[0m \e[1;37m\e[0m"
+echo -e "\e[1;32m[+]Write the file without the archive:\e[0m \e[1;31m.txt\e[0m"
+echo -n -e "\e[1;32mArchive: >>\e[0m \e[1;37m\e[0m"
 read a
 cat $a.txt
 echo ""
@@ -141,11 +141,11 @@ echo "
 "
 echo ""
 setterm -foreground green
-echo "[+]Ingrese una IP que tenga abierto el puerto 22"
+echo "[+]Enter an IP that has an open port 22:"
 echo -n -e "[IP] >> \e[1;37m\e[0m"
 read a
 echo ""
-echo -e "\e[1;36mVERSIÓN SSH DEL SERVIDOR\e[0m"
+echo -e "\e[1;36mSERVER SSH VERSION:\e[0m"
 exec 3</dev/tcp/$a/22
 timeout 1 cat <&3
 echo ""
@@ -177,10 +177,10 @@ setterm -foreground red
 echo "                    v.1.9"
 echo ""
 setterm -foreground green
-echo "SCRIPT PARA ENCONTRAR VULNERABILIDADES EN LA PAGINA DEL OBJETIVO"
+echo "SCRIPT FOR FINDING VULNERABILITIES IN THE OBJECTIVE PAGE:"
 sleep 1
 echo ""
-echo -e -n "\e[1;34m[+]Escriba la IP Objetivo >>\e[0m \e[1;32m\e[0m"
+echo -e -n "\e[1;34m[+]Write the IP Objective: >>\e[0m \e[1;32m\e[0m"
 read url
 echo ""
 setterm -foreground cyan
@@ -191,24 +191,24 @@ echo ""
 while :
 do
 setterm -foreground green
-echo "[1]Guardar las vulnerabilidades en un archivo txt"
-echo "[2]No guardar"
-echo -n "[~]Opcion >> "
-read opcion
-case $opcion in
+echo "[1]Save the vulnerabilities in an archive txt:"
+echo "[2]No guard"
+echo -n "[~]Option >> "
+read option
+case $option in
 1)
 echo ""
 #! /bin/bash
-echo -e -n "\e[1;31m[~]Nombre del archivo txt ej:(scan)>> \e[0m"
-read archivo
+echo -e -n "\e[1;31m[~]Name of the archive txt ex:(scan)>> \e[0m"
+read archive
 echo ""
-echo -e "\e[1;37m[#]Guardando vulnerabilidades espere un momento...\e[0m"
+echo -e "\e[1;37m[#]Saving vulnerabilities, wait a moment...\e[0m"
 
-#Esta funcion hace que al ejecutarse nmap -sV -sC --script vuln $url busque la vulnerabilidad de la IP
+#This function causes nmap -sV -sC --script vuln $url to search for the IP vulnerability
 setterm -foreground green
 sleep 1
 echo ""
-nmap -sV -sC --script vuln $url > $archivo.txt
+nmap -sV -sC --script vuln $url > $archive.txt
 echo ""
 bash main.sh
 exit
@@ -216,9 +216,9 @@ exit
 2)
 echo ""
 #! /bin/bash
-echo -e "\e[1;37m[#]Buscando vulnerabilidades espere un momento...\e[0m"
+echo -e "\e[1;37m[#]Searching for vulnerabilities, wait a moment...\e[0m"
 
-#Esta funcion hace que al ejecutarse nmap -sC -sV --script vuln $url busque la vulerabilidad de la IP
+#This function causes nmap -sC -sV --script vuln $url to search for the IP vulnerability
 sleep 1
 echo ""
 echo "==============================================================="
@@ -251,7 +251,7 @@ exit
 #! /bin/bash
 setterm -foreground yellow
 echo ""
-echo -e "\e[1;31m[~]\e[0m \e[1;33mUn gusto que uses mi herramienta , bye.\e[0m"
+echo -e "\e[1;31m[~]\e[0m \e[1;33mIt's a pleasure that you used my tool, bye.\e[0m"
 sleep 1
 exit
 ;;
