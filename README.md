@@ -62,3 +62,6 @@ bash osint.sh
 
 *****
 ☆ Follow me >_
+
+
+☆ Credits: MRX90902WX for making the og script: https://github.com/MRX90902WX/IP-OSINT
