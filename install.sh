@@ -72,7 +72,7 @@ pip install -r requirements.txt
 clear
 
 setterm -foreground blue
-echo -e "\e[1;34m------Clonando repositorios------\e[0m"
+echo -e "\e[1;34m------Cloning repositories------\e[0m"
 sleep 1
 echo ""
 git clone https://github.com/MRX90902WX/Modules-de-IP-OSINT
