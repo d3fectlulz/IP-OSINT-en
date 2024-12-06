@@ -1,45 +1,64 @@
 # IP-OSINT
-Saca informacion de ip de una pagina , o recopila informacion publica con la tecnica osint > Herramienta para uso educativo no me responsabilizo de sus acciones.
+Extracts IP information from a page, or collects public information using the OSINT technique > Tool for educational use, I am not responsible for your actions.
 
-#USO SOLO PARA TERNUX
+
+#USE ONLY FOR TERNUX
+
 
 git clone https://github.com/MRX90902WX/IP-OSINT
 
+
 cd IP-OSINT
+
 
 bash install.sh
 
+
 bash osint.sh
+
 
 #Menu 
 
-#Escojer una opción 
-1) Saca informacion de la ip de una pagina, teléfono,  direcciones , correos , City etc
 
-2) Hace recopilación de información pública a una pagina como city, codigo postal,  correos , servidores , números de teléfonos etc
+#Choose an option 
+1) Extracts information from a page's IP, phone number, addresses, emails, city, etc.
 
-3) Un generador de bin sin fecha o con fecha
 
-4) Ve servicios que se están corriendo en la IP
+2) It collects public information from a page such as city, postal code, emails, servers, phone numbers, etc.
 
-5) Ve la información de un número teléfono de cualquier país ej[+52 xxxx] Localidad, operadora, tipo mobile
 
-6) Lee archivos.txt dentro del directorio IP-OSINT
+3) A bin generator with or without a date
 
-7) Muestra la versión ssh de un servidor, esto sirve para ver si es vulnerable o no 
 
-8) Muestra la IP de una pagina
+4) See services running on the IP
 
-9) Escanea 24 puertos de una IP
 
-10) Escanea en busca de vulnerabilidad de una pagina con nmap
+5) See the information of a phone number from any country, e.g., [+52 xxxx] Location, operator, mobile type
 
-11) Muestra datos del sistema Termux
 
-12) Phishing wifi perzonalido con html, css y php
+6) Read .txt files within the IP-OSINT directory
 
-99) Salir.
+
+7) Show the SSH version of a server, this helps to see if it is vulnerable or not. 
+
+
+8) Shows the IP of a webpage
+
+
+9) Scan 24 ports of an IP
+
+
+10) Scan for vulnerabilities on a webpage with nmap
+
+
+11) Show Termux system data
+
+
+12) Personalized wifi phishing with HTML, CSS, and PHP
+
+
+99) Exit.
+
 
 *****
-☆ Sígu3me >_
-
+☆ Follow me >_
