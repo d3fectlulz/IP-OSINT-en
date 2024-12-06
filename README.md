@@ -5,10 +5,10 @@ Extracts IP information from a page, or collects public information using the OS
 #USE ONLY FOR TERMUX
 
 
-git clone https://github.com/MRX90902WX/IP-OSINT
+git clone https://github.com/d3fectlulz/IP-OSINT-en
 
 
-cd IP-OSINT
+cd IP-OSINT-en
 
 
 bash install.sh
