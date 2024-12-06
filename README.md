@@ -2,7 +2,7 @@
 Extracts IP information from a page, or collects public information using the OSINT technique > Tool for educational use, I am not responsible for your actions.
 
 
-#USE ONLY FOR TERNUX
+#USE ONLY FOR TERMUX
 
 
 git clone https://github.com/MRX90902WX/IP-OSINT
