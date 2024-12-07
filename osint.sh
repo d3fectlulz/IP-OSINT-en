@@ -70,10 +70,10 @@ bash main.sh
 exit
 ;;
 3)
-cd /data/data/com.termux/files/home/IP-OSINT/BIN
-bash iniciar.sh
+cd /files/home/IP-OSINT/BIN-en
+bash generador.sh
 echo ""
-cd /data/data/com.termux/files/home/IP-OSINT
+cd /files/home/IP-OSINT-en
 bash main.sh
 exit
 ;;
@@ -93,7 +93,7 @@ bash main.sh
 exit
 ;;
 5)
-cd /data/data/com.termux/files/home/IP-OSINT/Modules-de-IP-OSINT
+cd /files/home/IP-OSINT/Modules-of-IP-OSINT-en
 echo ""
 #! /bin/bash
 python phone.py
@@ -153,14 +153,14 @@ bash main.sh
 exit
 ;;
 8)
-cd /data/data/com.termux/files/home/IP-OSINT/Modules-de-IP-OSINT
+cd /files/home/IP-OSINT/Modules-of-IP-OSINT-en
 #! /bin/bash
 echo ""
 python ip.py
 exit
 ;;
 9)
-cd /data/data/com.termux/files/home/IP-OSINT/Modules-de-IP-OSINT
+cd /files/home/IP-OSINT/Modules-of-IP-OSINT-en
 #! /bin/bash
 echo ""
 python port1.py
@@ -231,18 +231,18 @@ esac
 done
 ;;
 11)
-cd /data/data/com.termux/files/home/IP-OSINT/Modules-de-IP-OSINT
+cd /files/home/IP-OSINT/Modules-of-IP-OSINT-en
 #! /bin/bash
 echo ""
 python system.py
 exit
 ;;
 12)
-cd /data/data/com.termux/files/home/IP-OSINT/PhishW
+cd /files/home/IP-OSINT/PhishW-en
 echo ""
 #! /bin/bash
 bash wifi.sh
-cd /data/data/com.termux/files/home/IP-OSINT
+cd /files/home/IP-OSINT-en
 echo ""
 bash main.sh
 exit
