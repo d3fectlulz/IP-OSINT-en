@@ -27,7 +27,7 @@ echo -e "\e[1;37m[\e[0m\e[1;31m99\e[0m\e[1;37m]. Exit\e[0m"
 echo ""
 echo -e "\e[1;36mFacebook:\e[0m \e[1;37mhttps://www.facebook.com/jimber.cevallos\e[0m"
 echo ""
-echo -e -n "\e[1;37m☆ I \e[0m\e[1;31mP \e[0m\e[1;33m- \e[0m\e[1;37mO \e[0m\e[1;31mP \e[0m\e[1;37mS \e[0m\e[1;31mI \e[0m\e[1;37mN >> \e[0m"
+echo -e -n "\e[1;37m☆ I \e[0m\e[1;31mP \e[0m\e[1;33m- \e[0m\e[1;37mO \e[0m\e[1;31mP \e[0m\e[1;37mS \e[0m\e[1;31mI \e[0m\e[1;37mN \e[0m\e[1;31mT >> \e[0m"
 read option
 case $option in
 1)
