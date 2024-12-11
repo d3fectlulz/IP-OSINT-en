@@ -80,7 +80,7 @@ git clone https://github.com/d3fectlulz/PhishW-en
 git clone https://github.com/d3fectlulz/BIN-en
 echo ""
 chmod 777 osint.sh
-echo -e "\e[1;Example:\e[0m \e[1;32m./osint.sh\e[0m"
+echo -e "\e[1;34mExample:\e[0m \e[1;32m./osint.sh\e[0m"
 
 
 
