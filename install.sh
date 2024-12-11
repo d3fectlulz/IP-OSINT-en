@@ -36,7 +36,7 @@ else
 sleep 1
 echo -e "(nmap) Not installed [✗]"
 sleep 1
-echo -e "\e[1;Installing nmap ...\e[0m"
+echo -e "\e[1;32mInstalling nmap ...\e[0m"
 sleep 3
 pkg install nmap -y
 fi
